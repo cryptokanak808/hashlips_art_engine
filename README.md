@@ -6,7 +6,6 @@ All the code in these repos was created and explained by HashLips on the main Yo
 
 To find out more please visit:
 
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
 
 [👄 Discord](https://discord.com/invite/qh6MWhMJDN)
 
