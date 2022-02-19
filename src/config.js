@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Pineapple Patch 2";
 const description = "Pineapple Patch is a collection of 2,222 randomly generated lottery NFTs that exist on the Ethereum and Polygon Blockchain. Pineapple Patch holders can participate in exclusive events such as NFT claims, raffles, community giveaways, and more.";
-const baseUri = "ipfs://QmTxdB9cZFb6ivJxRE7ncCjA9qFfn67F6yUVEifFLMLkKe";
+const baseUri = "ipfs:/QmTxdB9cZFb6ivJxRE7ncCjA9qFfn67F6yUVEifFLMLkKe";
 
 const solanaMetadata = {
   symbol: "YC",
