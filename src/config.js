@@ -5,7 +5,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
+const namePrefix = "PineapplePatch2";
 const description = "Pineapple Patch is a collection of 2222 handdrawn and randomly generated NFTs that exist on the Ethereum and Polygon Blockchain. Pineapple Patch holders can participate in exclusive events such as NFT claims, raffles, community giveaways, and more. Remember, all pineapples are good, but some are better than others.";
 const baseUri = "ipfs://NewUriToReplace";
 
