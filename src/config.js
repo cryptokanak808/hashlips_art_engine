@@ -5,11 +5,21 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "PineapplePatch2";
-const description = "Pineapple Patch is a collection of 2222 handdrawn and randomly generated NFTs that exist on the Ethereum and Polygon Blockchain. Pineapple Patch holders can participate in exclusive events such as NFT claims, raffles, community giveaways, and more. Remember, all pineapples are good, but some are better than others.";
+const namePrefix = "Pineapple Patch 2";
+const description = "Pineapple Patch is a collection of 2,222 randomly generated lottery NFTs that exist on the Ethereum and Polygon Blockchain. Pineapple Patch holders can participate in exclusive events such as NFT claims, raffles, community giveaways, and more.";
 const baseUri = "ipfs://NewUriToReplace";
 
-
+const solanaMetadata = {
+  symbol: "YC",
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://www.youtube.com/c/hashlipsnft",
+  creators: [
+    {
+      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      share: 100,
+    },
+  ],
+};
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -28,13 +38,13 @@ const layerConfigurations = [
   },
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
 const format = {
-  width: 1000,
-  height: 1000,
+  width: 512,
+  height: 512,
   smoothing: false,
 };
 
